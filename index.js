@@ -13,3 +13,17 @@ n=-5, m=5:  0 */
       return n * m;
     }
   } */
+
+
+/* Question 2:    The code provided is supposed replace all the dots . in the specified String str with dashes - 
+                  But it's not working properly. */
+
+
+  /*   var replaceDots = function(str) {
+    return str.replaceAll('.', '-');
+  }
+  let str1 = replaceDots("one.two.three");
+  console.log(str1); */
+
+
+
