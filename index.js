@@ -52,3 +52,14 @@ The size will always be positive and will only use whole numbers. */
 let result = stringy(6);
 console.log(result); */
 
+
+/* Question 5: This function should return an object, but it's not doing what's intended. What's wrong? */
+
+/* function mystery() {
+  var results =
+    {sanity: 'Hello'};
+
+    return results;
+} 
+let output = mystery();
+console.log(output);  */
