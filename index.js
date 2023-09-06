@@ -17,8 +17,6 @@ n=-5, m=5:  0 */
 
 /* Question 2:    The code provided is supposed replace all the dots . in the specified String str with dashes - 
                   But it's not working properly. */
-
-
   /*   var replaceDots = function(str) {
     return str.replaceAll('.', '-');
   }
@@ -27,8 +25,30 @@ n=-5, m=5:  0 */
 
 
 
-/* Question 3:  This method, which is supposed to return the result of dividing its first argument by its second, isn't always returning correct values. Fix it. */
-
-  const solve = (x, y) => x / y;
+/* Question 3:  This method, which is supposed to return the result of dividing its first argument by its second, isn't always returning 
+correct values. Fix it. */
+  /* const solve = (x, y) => x / y;
 let result = solve(25, 5)
-console.log(result);
+console.log(result); */
+
+
+
+/* Question 4:write me a function stringy that takes a size and returns a string of alternating 1s and 0s.
+the string should start with a 1. a string with size 6 should return :'101010'.
+with size 4 should return : '1010'. with size 12 should return : '101010101010'.
+The size will always be positive and will only use whole numbers. */
+/* function stringy(number){
+
+  let str = '';
+  for(i=0; i<number; i++){
+      if(i%2 === 0){
+          str =  str + '1';
+      }else{
+          str += '0';
+      }
+  }
+  return str;
+} 
+let result = stringy(6);
+console.log(result); */
+
