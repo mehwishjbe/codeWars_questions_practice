@@ -77,3 +77,17 @@ let message = greet("Johnny");
 let message1 = greet("Jimmy");
 console.log(message);
 console.log(message1); */
+
+
+
+/* This function should return an object, but it's not doing what's intended. What's wrong? */
+/* function mystery() {
+  var results =
+    {sanity: 'Hello'};
+
+    return results;
+} 
+
+let output = mystery();
+console.log(output);  */
+
