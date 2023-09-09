@@ -65,7 +65,7 @@ let output = mystery();
 console.log(output);  */
 
 
-/* Jenny has written a function that returns a greeting for a user. However, she's in love with Johnny, and would like to greet him slightly different. She added a special case to her function, but she made a mistake. */
+/* Question 6: Jenny has written a function that returns a greeting for a user. However, she's in love with Johnny, and would like to greet him slightly different. She added a special case to her function, but she made a mistake. */
 /* function greet(name){
   if(name === "Johnny"){
     return "Hello, " + name + " my love!";
@@ -80,7 +80,7 @@ console.log(message1); */
 
 
 
-/* This function should return an object, but it's not doing what's intended. What's wrong? */
+/* Question 7: This function should return an object, but it's not doing what's intended. What's wrong? */
 /* function mystery() {
   var results =
     {sanity: 'Hello'};
@@ -90,4 +90,17 @@ console.log(message1); */
 
 let output = mystery();
 console.log(output);  */
+
+
+
+/* Question 8: Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.  */
+/* function evenOrOdd(number) {
+    if(number%2 === 0){
+        return 'Even';
+    }else{
+        return 'Odd';
+    } 
+}
+let result = evenOrOdd(6);
+console.log(result); */
 
