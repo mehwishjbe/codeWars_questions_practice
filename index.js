@@ -104,3 +104,42 @@ console.log(output);  */
 let result = evenOrOdd(6);
 console.log(result); */
 
+
+
+/* Question 9: The function is not returning the correct values. Can you figure out why? */
+
+function getPlanetName(id){
+  let name;
+  switch(id){
+    case 1:
+      name = 'Mercury'
+      break;
+    case 2:
+      name = 'Venus'
+      break;
+    case 3:
+      name = 'Earth'
+      break;
+    case 4:
+      name = 'Mars'
+      break;
+    case 5:
+      name = 'Jupiter'
+      break;
+    case 6:
+      name = 'Saturn'
+      break;
+    case 7:
+      name = 'Uranus'
+      break;
+    case 8:
+      name = 'Neptune'
+      break;
+    default:
+      name= "Invalid statement";
+      break;
+  }
+  return name;
+} 
+let receiveName = getPlanetName();
+console.log(receiveName);
