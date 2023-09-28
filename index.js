@@ -108,7 +108,7 @@ console.log(result); */
 
 /* Question 9: The function is not returning the correct values. Can you figure out why? */
 
-function getPlanetName(id){
+/* function getPlanetName(id){
   let name;
   switch(id){
     case 1:
@@ -142,4 +142,14 @@ function getPlanetName(id){
   return name;
 } 
 let receiveName = getPlanetName();
-console.log(receiveName);
+console.log(receiveName); */
+
+
+/* Question 10: The starship Enterprise has run into some problem when creating a program to greet everyone as they come aboard. It is your job to fix the code and get the program working again! */
+
+function sayHello(name) {
+  return 'Hello ' +name;
+}
+let greet = sayHello("Mr. Ben");
+console.log(greet); 
+
