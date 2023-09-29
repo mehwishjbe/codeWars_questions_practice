@@ -158,11 +158,26 @@ console.log(greet);  */
 checkAlive/CheckAlive/check_alive should return true if the player's health is greater than 0 or false if it is 0 or below.
 The function receives one parameter health which will always be a whole number between -10 and 10. */
 
-function checkAlive (health) {
+/* function checkAlive (health) {
   if (health > 0) {
     return true;
   } else if (health <= 0) {
     return false;
   }
 }
-console.log(checkAlive());
+console.log(checkAlive()); */
+
+
+/*Question 12: Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them. */
+
+function between(a, b) {
+  const array = [];
+  for(a=a; a<b+1; a++){
+    array.push(a);
+  }
+  return array;
+}
+let receives = between(-25,-5);
+console.log(receives);
+
+
