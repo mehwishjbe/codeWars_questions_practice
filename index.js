@@ -170,7 +170,7 @@ console.log(checkAlive()); */
 
 /*Question 12: Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them. */
 
-function between(a, b) {
+/* function between(a, b) {
   const array = [];
   for(a=a; a<b+1; a++){
     array.push(a);
@@ -178,6 +178,15 @@ function between(a, b) {
   return array;
 }
 let receives = between(-25,-5);
-console.log(receives);
+console.log(receives); */
 
 
+/* Question 13: Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string. */
+
+function fakeBin(str){
+    const replaceZero = str.replace(/[0-4]/g, '0');
+    const replaceOne = replaceZero.replace(/[5-9]/g, '1');
+    return replaceOne;
+  }
+let recieve = fakeBin('724165843239347');
+console.log(recieve);
