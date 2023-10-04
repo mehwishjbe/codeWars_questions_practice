@@ -183,10 +183,22 @@ console.log(receives); */
 
 /* Question 13: Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string. */
 
-function fakeBin(str){
+/* function fakeBin(str){
     const replaceZero = str.replace(/[0-4]/g, '0');
     const replaceOne = replaceZero.replace(/[5-9]/g, '1');
     return replaceOne;
   }
 let recieve = fakeBin('724165843239347');
+console.log(recieve); */
+
+
+/*Question 14:  We need a function that can transform a number (integer) into a string.
+What ways of achieving this do you know? */
+
+function numberToString(num) {
+    let text = num.toString();
+    return text;
+}
+let recieve = numberToString(4);
 console.log(recieve);
+console.log(typeof recieve);
