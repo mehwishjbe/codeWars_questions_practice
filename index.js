@@ -195,10 +195,34 @@ console.log(recieve); */
 /*Question 14:  We need a function that can transform a number (integer) into a string.
 What ways of achieving this do you know? */
 
-function numberToString(num) {
+/* function numberToString(num) {
     let text = num.toString();
     return text;
 }
 let recieve = numberToString(4);
 console.log(recieve);
-console.log(typeof recieve);
+console.log(typeof recieve); */
+
+
+/*  You get an array of numbers, return the sum of all of the positives ones.
+    Example [1,-4,7,12] => 1 + 7 + 12 = 20
+    Note: if there is nothing to sum, the sum is default to 0. */
+
+function positiveSum(arr){
+    let sum = 0;
+    let check;
+
+    for(let i=0; i<arr.length; i++)
+    {
+      if(arr[i] <= 0){
+        check = false;
+      }
+      else if(!check){
+      sum = sum + arr[i];
+      }
+    }
+    return sum;
+}
+let arryForSum = [2,2,2,-2,2,3,-10,10,4,-4,5,-5,6];
+let receive  = positiveSum(arryForSum);
+console.log(receive);
