@@ -204,11 +204,11 @@ console.log(recieve);
 console.log(typeof recieve); */
 
 
-/*  You get an array of numbers, return the sum of all of the positives ones.
+/* Question 15: You get an array of numbers, return the sum of all of the positives ones.
     Example [1,-4,7,12] => 1 + 7 + 12 = 20
     Note: if there is nothing to sum, the sum is default to 0. */
 
-function positiveSum(arr){
+/* function positiveSum(arr){
     let sum = 0;
     let check;
 
@@ -225,4 +225,18 @@ function positiveSum(arr){
 }
 let arryForSum = [2,2,2,-2,2,3,-10,10,4,-4,5,-5,6];
 let receive  = positiveSum(arryForSum);
-console.log(receive);
+console.log(receive); */
+
+
+
+/* Question 16: It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters. */
+
+function removeChar(str){
+  if(str.length >= 2){
+    return (str.substring(1, str.length-1));
+  }
+ };
+removeChar('eloquent');
+removeChar('country');
+removeChar('c2');
+removeChar('');
