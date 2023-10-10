@@ -231,7 +231,7 @@ console.log(receive); */
 
 /* Question 16: It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters. */
 
-function removeChar(str){
+/* function removeChar(str){
   if(str.length >= 2){
     return (str.substring(1, str.length-1));
   }
@@ -239,4 +239,13 @@ function removeChar(str){
 removeChar('eloquent');
 removeChar('country');
 removeChar('c2');
-removeChar('');
+removeChar(''); */
+
+
+/* Question 17: Create a method to see whether the string is ALL CAPS. */
+
+function uppercase(){
+  let str = "JAVA SCRIPT"
+  return str === String(str).toUpperCase()
+}
+console.log(uppercase());
