@@ -244,8 +244,18 @@ removeChar(''); */
 
 /* Question 17: Create a method to see whether the string is ALL CAPS. */
 
-function uppercase(){
+/* function uppercase(){
   let str = "JAVA SCRIPT"
   return str === String(str).toUpperCase()
 }
-console.log(uppercase());
+console.log(uppercase()); */
+
+/* Question 18: Given a array of strings, return a new array that only includes those that are 5 characters or fewer in length. */
+
+const array1 = ["dog", "wolf", "family", "eaten", "computer", "bed", "pen", "song"]
+
+function funcfilter(arr){
+    return arr.length < 5;
+}
+const output = array1.filter(funcfilter);
+console.log(output);
