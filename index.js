@@ -252,10 +252,26 @@ console.log(uppercase()); */
 
 /* Question 18: Given a array of strings, return a new array that only includes those that are 5 characters or fewer in length. */
 
-const array1 = ["dog", "wolf", "family", "eaten", "computer", "bed", "pen", "song"]
+/* const array1 = ["dog", "wolf", "family", "eaten", "computer", "bed", "pen", "song"]
 
 function funcfilter(arr){
     return arr.length < 5;
 }
 const output = array1.filter(funcfilter);
+console.log(output); */
+
+/* Question 19: given an array of people objects, return a new array that has filtered out all those who don't belong to the club. */
+
+const array = [
+  {name: "Paris hilten", member: true},
+  {name: "Brad Pitt", member: false},
+  {name: "Iron Man", member: true},
+  {name: "Simsons", member: false},
+]
+
+function clubPeople(arr){
+  return arr.member === false;
+}
+
+const output = array.filter(clubPeople);
 console.log(output);
