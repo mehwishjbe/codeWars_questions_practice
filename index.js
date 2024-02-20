@@ -280,9 +280,27 @@ console.log(output); */
 
 /* Question 20: calculate and print the sum of an array of numbers using forEach method  */
 
-const numbers = [10,20,30,40,50]
+/* const numbers = [10,20,30,40,50]
 let sum = 0;
 numbers.forEach(function(number){
         sum += number;
 })
-console.log(sum);
+console.log(sum); */
+
+
+/* const numbers = [10,20,30,40,50];
+let square = 0;
+numbers.forEach(function(number){
+        square *= number;
+})
+console.log(square); */
+
+/* Question 21: create a new array containing each number of squared using 'forEach'.  */
+
+const array1 = [ 22, 56, 11, 90, 20];
+let squaredArray = [];
+
+array1.forEach(function(array){
+  squaredArray.push(array * array)
+});
+console.log(squaredArray);
