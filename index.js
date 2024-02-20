@@ -262,7 +262,7 @@ console.log(output); */
 
 /* Question 19: given an array of people objects, return a new array that has filtered out all those who don't belong to the club. */
 
-const array = [
+/* const array = [
   {name: "Paris hilten", member: true},
   {name: "Brad Pitt", member: false},
   {name: "Iron Man", member: true},
@@ -274,4 +274,15 @@ function clubPeople(arr){
 }
 
 const output = array.filter(clubPeople);
-console.log(output);
+console.log(output); */
+
+
+
+/* Question 20: calculate and print the sum of an array of numbers using forEach method  */
+
+const numbers = [10,20,30,40,50]
+let sum = 0;
+numbers.forEach(function(number){
+        sum += number;
+})
+console.log(sum);
