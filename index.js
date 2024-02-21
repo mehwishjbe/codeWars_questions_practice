@@ -297,10 +297,23 @@ console.log(square); */
 
 /* Question 21: create a new array containing each number of squared using 'forEach'.  */
 
-const array1 = [ 22, 56, 11, 90, 20];
+/* const array1 = [ 22, 56, 11, 90, 20];
 let squaredArray = [];
 
 array1.forEach(function(array){
   squaredArray.push(array * array)
 });
-console.log(squaredArray);
+console.log(squaredArray); */
+
+
+
+/* Question 22: create a new array of strings, using 'forEach' count the number of times a specific string appears.  */
+const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple', 'orange', 'orange', 'orange'];
+
+let fruitCount = 0;
+fruits.forEach(function(ele){
+  if(ele === 'orange'){
+    fruitCount++;
+  }
+});
+console.log(fruitCount);
