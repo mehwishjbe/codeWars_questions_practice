@@ -308,7 +308,7 @@ console.log(squaredArray); */
 
 
 /* Question 22: create a new array of strings, using 'forEach' count the number of times a specific string appears.  */
-const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple', 'orange', 'orange', 'orange'];
+/* const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple', 'orange', 'orange', 'orange'];
 
 let fruitCount = 0;
 fruits.forEach(function(ele){
@@ -316,4 +316,34 @@ fruits.forEach(function(ele){
     fruitCount++;
   }
 });
-console.log(fruitCount);
+console.log(fruitCount); */
+
+
+
+/* Question 22: using 'forEach' count every element in array how many times it appears.  */
+/* const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple', 'orange', 'orange', 'orange'];
+
+const fruitCounts = {};
+
+fruits.forEach(function(fruit) {
+  if (fruitCounts[fruit]) {
+    fruitCounts[fruit]++;
+  } else {
+    fruitCounts[fruit] = 1;
+  }
+});
+console.log(fruitCounts); */
+
+/* Question 23: using 'forEach' calculate the area and store into another array.  */
+var images = [
+  {height: 10, width: 30},
+  {height: 20, width: 90},
+  {height: 54, width: 32},
+];
+var areas = [];
+
+images.forEach(function(image){
+  areas.push(image.height * image.width)
+});
+
+console.log(areas);
