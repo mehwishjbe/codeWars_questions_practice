@@ -349,10 +349,10 @@ images.forEach(function(image){
 console.log(areas); */
 
 
-/* Question 23: White a function that takes an array of numbers as input and filters out all the even number using 'forEach'. The filtered
+/* Question 24: White a function that takes an array of numbers as input and filters out all the even number using 'forEach'. The filtered
 numbers should be stored in a array. */
 
-let Array1 = [ 12,3,18,2,7,13,19,20 ];
+/* let Array1 = [ 12,3,18,2,7,13,19,20 ];
 
 let evenArray = [];
 
@@ -361,4 +361,14 @@ Array1.forEach(function(array){
     evenArray.push(array)
   }
 });
-console.log(evenArray);
+console.log(evenArray); */
+
+
+/* Question 25: White a function that takes an array of numbers as input and filters out all the even number using 'filter'.*/
+
+let Array1 = [ 12,3,18,2,7,16,4,13,19,20 ];
+
+let filtered = Array1.filter(function(array){
+  return array%2===0;
+});
+console.log(filtered);
