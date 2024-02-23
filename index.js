@@ -335,7 +335,7 @@ fruits.forEach(function(fruit) {
 console.log(fruitCounts); */
 
 /* Question 23: using 'forEach' calculate the area and store into another array.  */
-var images = [
+/* var images = [
   {height: 10, width: 30},
   {height: 20, width: 90},
   {height: 54, width: 32},
@@ -346,4 +346,19 @@ images.forEach(function(image){
   areas.push(image.height * image.width)
 });
 
-console.log(areas);
+console.log(areas); */
+
+
+/* Question 23: White a function that takes an array of numbers as input and filters out all the even number using 'forEach'. The filtered
+numbers should be stored in a array. */
+
+let Array1 = [ 12,3,18,2,7,13,19,20 ];
+
+let evenArray = [];
+
+Array1.forEach(function(array){
+  if(array%2==0){
+    evenArray.push(array)
+  }
+});
+console.log(evenArray);
