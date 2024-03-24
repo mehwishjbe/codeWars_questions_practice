@@ -14,24 +14,19 @@ n=-5, m=5:  0 */
     }
   } */
 
-
 /* Question 2:    The code provided is supposed replace all the dots . in the specified String str with dashes - 
                   But it's not working properly. */
-  /*   var replaceDots = function(str) {
+/*   var replaceDots = function(str) {
     return str.replaceAll('.', '-');
   }
   let str1 = replaceDots("one.two.three");
   console.log(str1); */
 
-
-
 /* Question 3:  This method, which is supposed to return the result of dividing its first argument by its second, isn't always returning 
 correct values. Fix it. */
-  /* const solve = (x, y) => x / y;
+/* const solve = (x, y) => x / y;
 let result = solve(25, 5)
 console.log(result); */
-
-
 
 /* Question 4:write me a function stringy that takes a size and returns a string of alternating 1s and 0s.
 the string should start with a 1. a string with size 6 should return :'101010'.
@@ -52,7 +47,6 @@ The size will always be positive and will only use whole numbers. */
 let result = stringy(6);
 console.log(result); */
 
-
 /* Question 5: This function should return an object, but it's not doing what's intended. What's wrong? */
 
 /* function mystery() {
@@ -63,7 +57,6 @@ console.log(result); */
 } 
 let output = mystery();
 console.log(output);  */
-
 
 /* Question 6: Jenny has written a function that returns a greeting for a user. However, she's in love with Johnny, and would like to greet him slightly different. She added a special case to her function, but she made a mistake. */
 /* function greet(name){
@@ -78,8 +71,6 @@ let message1 = greet("Jimmy");
 console.log(message);
 console.log(message1); */
 
-
-
 /* Question 7: This function should return an object, but it's not doing what's intended. What's wrong? */
 /* function mystery() {
   var results =
@@ -91,8 +82,6 @@ console.log(message1); */
 let output = mystery();
 console.log(output);  */
 
-
-
 /* Question 8: Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.  */
 /* function evenOrOdd(number) {
     if(number%2 === 0){
@@ -103,8 +92,6 @@ console.log(output);  */
 }
 let result = evenOrOdd(6);
 console.log(result); */
-
-
 
 /* Question 9: The function is not returning the correct values. Can you figure out why? */
 
@@ -144,7 +131,6 @@ console.log(result); */
 let receiveName = getPlanetName();
 console.log(receiveName); */
 
-
 /* Question 10: The starship Enterprise has run into some problem when creating a program to greet everyone as they come aboard. It is your job to fix the code and get the program working again! */
 
 /* function sayHello(name) {
@@ -152,7 +138,6 @@ console.log(receiveName); */
 }
 let greet = sayHello("Mr. Ben");
 console.log(greet);  */
-
 
 /* Question 11: While making a game, your partner, Greg, decided to create a function to check if the user is still alive called checkAlive/CheckAlive/check_alive. Unfortunately, Greg made some errors while creating the function.
 checkAlive/CheckAlive/check_alive should return true if the player's health is greater than 0 or false if it is 0 or below.
@@ -167,7 +152,6 @@ The function receives one parameter health which will always be a whole number b
 }
 console.log(checkAlive()); */
 
-
 /*Question 12: Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them. */
 
 /* function between(a, b) {
@@ -180,7 +164,6 @@ console.log(checkAlive()); */
 let receives = between(-25,-5);
 console.log(receives); */
 
-
 /* Question 13: Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string. */
 
 /* function fakeBin(str){
@@ -190,7 +173,6 @@ console.log(receives); */
   }
 let recieve = fakeBin('724165843239347');
 console.log(recieve); */
-
 
 /*Question 14:  We need a function that can transform a number (integer) into a string.
 What ways of achieving this do you know? */
@@ -202,7 +184,6 @@ What ways of achieving this do you know? */
 let recieve = numberToString(4);
 console.log(recieve);
 console.log(typeof recieve); */
-
 
 /* Question 15: You get an array of numbers, return the sum of all of the positives ones.
     Example [1,-4,7,12] => 1 + 7 + 12 = 20
@@ -227,8 +208,6 @@ let arryForSum = [2,2,2,-2,2,3,-10,10,4,-4,5,-5,6];
 let receive  = positiveSum(arryForSum);
 console.log(receive); */
 
-
-
 /* Question 16: It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters. */
 
 /* function removeChar(str){
@@ -240,7 +219,6 @@ removeChar('eloquent');
 removeChar('country');
 removeChar('c2');
 removeChar(''); */
-
 
 /* Question 17: Create a method to see whether the string is ALL CAPS. */
 
@@ -276,8 +254,6 @@ function clubPeople(arr){
 const output = array.filter(clubPeople);
 console.log(output); */
 
-
-
 /* Question 20: calculate and print the sum of an array of numbers using forEach method  */
 
 /* const numbers = [10,20,30,40,50]
@@ -286,7 +262,6 @@ numbers.forEach(function(number){
         sum += number;
 })
 console.log(sum); */
-
 
 /* const numbers = [10,20,30,40,50];
 let square = 0;
@@ -305,8 +280,6 @@ array1.forEach(function(array){
 });
 console.log(squaredArray); */
 
-
-
 /* Question 22: create a new array of strings, using 'forEach' count the number of times a specific string appears.  */
 /* const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple', 'orange', 'orange', 'orange'];
 
@@ -317,8 +290,6 @@ fruits.forEach(function(ele){
   }
 });
 console.log(fruitCount); */
-
-
 
 /* Question 22: using 'forEach' count every element in array how many times it appears.  */
 /* const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple', 'orange', 'orange', 'orange'];
@@ -348,7 +319,6 @@ images.forEach(function(image){
 
 console.log(areas); */
 
-
 /* Question 24: White a function that takes an array of numbers as input and filters out all the even number using 'forEach'. The filtered
 numbers should be stored in a array. */
 
@@ -363,12 +333,25 @@ Array1.forEach(function(array){
 });
 console.log(evenArray); */
 
-
 /* Question 25: White a function that takes an array of numbers as input and filters out all the even number using 'filter'.*/
 
-let Array1 = [ 12,3,18,2,7,16,4,13,19,20 ];
+/* let Array1 = [12, 3, 18, 2, 7, 16, 4, 13, 19, 20];
 
-let filtered = Array1.filter(function(array){
-  return array%2===0;
+let filtered = Array1.filter(function (array) {
+  return array % 2 === 0;
 });
-console.log(filtered);
+console.log(filtered); */
+
+/* Question 26: For given array with prices of 5 items {250, 645, 300, 900, 50}. All items have am offer of 10% off on them
+Change the array to store final price after applying offer. */
+
+let items = [250, 645, 300, 900, 50];
+
+let i = 0;
+console.log(items);
+for (let val of items) {
+  let offer = val / 10;
+  items[i] = items[i] - offer;
+  console.log(`value after offer = ${items[i]}`);
+  i++;
+}
