@@ -355,15 +355,23 @@ for (let val of items) {
   i++;
 } */
 
-
 /* Question 27: create an array to store companies "bloomberg", "microsoft", "uber", "google", "IBM", "netflix", and perform following tasks on it
 -remove first company from array
 -remove uber and add ola in its place
 -add amazon at the end */
 
-let companies = ["Bloomberg", "Microsoft", "Uber", "google", "IBM", "netflix"];
+/* let companies = ["Bloomberg", "Microsoft", "Uber", "google", "IBM", "netflix"];
 companies.shift(0);
 companies.push("Amazon");
 console.log(companies);
 companies.splice(1, 1, "Ola");
-console.log(companies);
+console.log(companies); */
+
+/* Question 28: Write a function that takes an integer minutes in prompt and converts it into seconds. */
+
+let min = prompt("enter minutes");
+function seconds(min) {
+  return min * 60;
+}
+let result = seconds(min);
+console.log("There are " + result + " seconds in " + min + " minutes");
