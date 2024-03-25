@@ -369,9 +369,16 @@ console.log(companies); */
 
 /* Question 28: Write a function that takes an integer minutes in prompt and converts it into seconds. */
 
-let min = prompt("enter minutes");
+/* let min = prompt("enter minutes");
 function seconds(min) {
   return min * 60;
 }
 let result = seconds(min);
-console.log("There are " + result + " seconds in " + min + " minutes");
+console.log("There are " + result + " seconds in " + min + " minutes"); */
+
+/* Question 29: Write an arrow function that takes an integer as an arguement and return the next number of it. */
+
+const arrowfunc = (num) => {
+  console.log(++num);
+};
+arrowfunc(99);
