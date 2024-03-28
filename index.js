@@ -402,8 +402,16 @@ console.log(index); */
 
 
 /* Question 32: create a function that takes takes voltage and current and returns the calculated power. */
-const calcPower = (voltage, current) => {
+/* const calcPower = (voltage, current) => {
   return voltage * current;
 };
 let power = calcPower(480, 20);
-console.log(power);
+console.log(power); */
+
+
+/* Question 33: Creates a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.*/
+const nextTriangle = (side1, side2) => {
+  return side1 + side2 - 1;
+};
+let side3 = nextTriangle(9, 2);
+console.log(side3);
