@@ -393,9 +393,17 @@ console.log(ageInDays); */
 
 
 /* Question 31: create a function that takes an array containing only numbers and return the first element.  */
-const arrfunc = (arr) => {
+/* const arrfunc = (arr) => {
   return arr[0];
 };
 
 let index = arrfunc([80, 100, -606]);
-console.log(index);
+console.log(index); */
+
+
+/* Question 32: create a function that takes takes voltage and current and returns the calculated power. */
+const calcPower = (voltage, current) => {
+  return voltage * current;
+};
+let power = calcPower(480, 20);
+console.log(power);
