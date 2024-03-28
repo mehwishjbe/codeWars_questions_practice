@@ -378,7 +378,15 @@ console.log("There are " + result + " seconds in " + min + " minutes"); */
 
 /* Question 29: Write an arrow function that takes an integer as an arguement and return the next number of it. */
 
-const arrowfunc = (num) => {
+/* const arrowfunc = (num) => {
   console.log(++num);
 };
-arrowfunc(99);
+arrowfunc(99); */
+
+
+/* Question 30: Create a function that takes the age in years and returns the age in days. */
+const arrAgeCount = (age = 18) => {
+  return age * 365;
+};
+let ageInDays = arrAgeCount(18);
+console.log(ageInDays);
