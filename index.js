@@ -385,8 +385,17 @@ arrowfunc(99); */
 
 
 /* Question 30: Create a function that takes the age in years and returns the age in days. */
-const arrAgeCount = (age = 18) => {
+/* const arrAgeCount = (age = 18) => {
   return age * 365;
 };
 let ageInDays = arrAgeCount(18);
-console.log(ageInDays);
+console.log(ageInDays); */
+
+
+/* Question 31: create a function that takes an array containing only numbers and return the first element.  */
+const arrfunc = (arr) => {
+  return arr[0];
+};
+
+let index = arrfunc([80, 100, -606]);
+console.log(index);
